@@ -43,6 +43,9 @@ class HtmlDialect(Dialect):
             'cc:ie9': {
                 'opening_tag': '<!--[if lte IE 9]>',
                 'closing_tag': '<![endif]-->'},
+            'cc:ie10': {
+                'opening_tag': '<!--[if lte IE 9]>',
+                'closing_tag': '<![endif]-->'},
             'cc:noie': {
                 'opening_tag': '<!--[if !IE]><!-->',
                 'closing_tag': '<!--<![endif]-->'},
